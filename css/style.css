@@ -17,24 +17,19 @@ header {
     width: 100%;
     height: 109px;
     background-color: #ed532e;
-    padding-right: 61px;
 }
 
 header .logo {
     width: 147px;
     height: 76px;
     position: relative;
-    left: 3%;
-    top: 15%;
+    top: 20px;
+    left: 5%;
 }
 
 header nav {
     float: right;
     margin-top: -30px;
-}
-
-menu li a {
-    text-decoration: none;
 }
 
 header nav .menu {
@@ -46,15 +41,22 @@ header nav .menu {
 
 header nav .menu li {
     display: inline;
-    padding: 0 10px;
     margin: 0;
-    font-size: 15px;
+    font-size: 10px;
+    padding: 0 15px;
+    border-right: 2px solid;
+}
+
+header nav .menu li:last-child {
+    border-right: none;
 }
 
 header nav .menu li a {
     color: white;
     padding: 0;
     text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 .toggle {
@@ -107,13 +109,13 @@ header nav .menu li a {
     padding: 15px;
     display: none;
     text-align: right;
-    margin-top: -10px
+    margin-top: -10px;
 }
 
 .toggle-menu ul {
     margin-top: -20px;
     width: 70%;
-    float: right
+    float: right;
 }
 
 .toggle-menu ul li {
@@ -162,65 +164,25 @@ header nav .menu li a {
 }
 
 .carousel-caption {
-    padding-left: 300px;
-    padding-bottom: 150px;
+    height: 100%;
+    padding-left: 20%;
+    padding-top: 8%;
     text-align: left;
 }
 
 .carousel-caption h3 {
+    margin-top: 20px;
     color: rgba(233, 71, 44, 255);
-    font-size: 45px;
+    font-size: 3vw;
 }
 
 .carousel-caption p {
     color: rgba(0, 0, 0, 255);
-    font-size: 23px;
+    font-size: 1.9vw;
 }
 
-.hrc {
-    margin-bottom: -50px;
-}
-
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (max-width: 1200px) {
-    .carousel-caption {
-        padding-left: 20%;
-        padding-bottom: 5%;
-    }
-    .carousel-caption h3 {
-        font-size: 35px;
-    }
-    .carousel-caption p {
-        font-size: 20px;
-    }
-    .hrc {
-        margin-bottom: 0px;
-    }
-}
-
-
-/* Medium Devices, Desktops */
-
-@media only screen and (max-width: 992px) {}
-
-
-/* Small Devices, Tablets */
-
-@media only screen and (max-width: 768px) {
-    .carousel-caption {
-        padding-left: 20%;
-        padding-bottom: 3%;
-    }
-    .carousel-caption h3 {
-        font-size: 27px;
-        line-height: 25px;
-    }
-    .carousel-caption p {
-        font-size: 20px;
-        line-height: 20px;
-    }
+.hr-sl {
+    background: black;
 }
 
 
@@ -228,19 +190,7 @@ header nav .menu li a {
 
 @media only screen and (max-width: 480px) {
     .carousel-caption {
-        padding-left: 20%;
-        padding-bottom: 2%;
-    }
-    .carousel-caption h3 {
-        font-size: 12px;
-        line-height: 10px;
-    }
-    .carousel-caption p {
-        font-size: 10px;
-        line-height: 10px;
-    }
-    .hrc {
-        margin-bottom: -15px;
+        padding-top: 5%;
     }
 }
 
@@ -249,16 +199,7 @@ header nav .menu li a {
 
 @media only screen and (max-width: 320px) {
     .carousel-caption {
-        padding-left: 20%;
-        padding-bottom: 0;
-    }
-    .carousel-caption h3 {
-        font-size: 10px;
-        line-height: 9px;
-    }
-    .carousel-caption p {
-        font-size: 10px;
-        line-height: 8px;
+        padding-top: 4%;
     }
 }
 
@@ -316,8 +257,8 @@ header nav .menu li a {
     padding-top: 20px;
 }
 
-.news-scroll .box2 {
-    padding-right: 5%;
+.box222 {
+    padding: 0 20px 0 30px
 }
 
 .newstitle {
@@ -341,6 +282,94 @@ hr.hrcat {
     height: 330px;
     text-align: center;
     padding-top: 47px;
+}
+
+.authors h2 {
+    padding: 0 20px;
+    color: rgba(233, 71, 44, 255);
+}
+
+.hr1 {
+    width: 70%;
+    background-color: red;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #ed532e, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #ed532e, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #ed532e, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #ed532e, #f0f0f0);
+    margin-bottom: 30px;
+}
+
+.aw1,
+.aw2 {
+    text-align: left;
+}
+
+.aw1 .media,
+.aw2 .media {
+    padding: 10px;
+}
+
+.aw1 .media h5,
+.aw2 .media h5 {
+    font-size: 23px;
+    color: rgba(237, 83, 46, 255);
+    padding-top: 20px;
+}
+
+.aw1 .media p,
+.aw2 .media p {
+    font-size: 12px;
+    color: rgba(102, 102, 102, 255);
+}
+
+.author-profile1 {
+    width: 180px;
+}
+
+.author-profile1 img {
+    position: absolute;
+}
+
+.author-profile1 img:first-child {
+    z-index: 3;
+    width: 140x;
+    border-radius: 50%;
+}
+
+.author-profile1 img:nth-child(2) {
+    top: px;
+    margin-left: -8px;
+}
+
+.author-profile1 img:last-child {
+    left: 11px;
+    top: 0;
+}
+
+.author-profile2 {
+    width: 180px;
+}
+
+.author-profile2 img {
+    position: absolute;
+}
+
+.author-profile2 img:first-child {
+    z-index: 3;
+    width: 140x;
+    border-radius: 50%;
+}
+
+.author-profile2 img:nth-child(2) {
+    top: 4px;
+    margin-left: 1px;
+}
+
+.author-profile2 img:last-child {
+    left: 18px;
+    top: -4px;
 }
 
 
@@ -368,6 +397,10 @@ hr.hrcat {
     .authors {
         height: 420px;
     }
+    .aw1 .media p,
+    .aw2 .media p {
+        line-height: 14px;
+    }
 }
 
 
@@ -375,7 +408,7 @@ hr.hrcat {
 
 @media only screen and (max-width: 480px) {
     .authors {
-        height: 570px;
+        height: 630px;
     }
 }
 
@@ -388,51 +421,6 @@ hr.hrcat {
     }
 }
 
-.authors h2 {
-    padding: 0 20px;
-    color: rgba(233, 71, 44, 255);
-}
-
-.hr1 {
-    width: 70%;
-    background-color: red;
-    border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #ed532e, #f0f0f0);
-    background-image: -moz-linear-gradient(left, #f0f0f0, #ed532e, #f0f0f0);
-    background-image: -ms-linear-gradient(left, #f0f0f0, #ed532e, #f0f0f0);
-    background-image: -o-linear-gradient(left, #f0f0f0, #ed532e, #f0f0f0);
-    margin-bottom: 30px;
-}
-
-.aw1,
-.aw2 {
-    text-align: left;
-}
-
-.aw1 .mr-3,
-.aw2 .mr-3 {
-    border-radius: 50%;
-}
-
-.aw1 .media,
-.aw2 .media {
-    padding: 10px;
-}
-
-.aw1 .media h5,
-.aw2 .media h5 {
-    font-size: 23px;
-    color: rgba(237, 83, 46, 255);
-    padding-top: 20px;
-}
-
-.aw1 .media p,
-.aw2 .media p {
-    font-size: 12px;
-    color: rgba(102, 102, 102, 255);
-}
-
 
 /* author end*/
 
@@ -440,10 +428,19 @@ hr.hrcat {
 /* resourses*/
 
 .resources {
-    height: 503px;
+    height: 530px;
     background-image: linear-gradient(#fdefec, #fdf0ec, #fdf0ec, #ffffff);
     text-align: center;
     padding-top: 20px;
+    position: relative;
+}
+
+.vector1 {
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 18%;
+    z-index: 1;
 }
 
 .resources h2 {
@@ -478,11 +475,13 @@ hr.hrcat {
 
 .vid1,
 .vid2 {
-    padding: 20px 50px 20px 20px;
+    padding: 20px;
 }
 
 .embed-responsive {
     height: 269px;
+    width: 91%;
+    z-index: 2;
 }
 
 
@@ -534,6 +533,9 @@ hr.hrcat {
     .resources {
         height: 800px;
     }
+    .vector1 {
+        bottom: 45%;
+    }
 }
 
 
@@ -557,10 +559,14 @@ footer {
     color: #ffffff;
 }
 
+.footer-row {
+    padding: 0 30px 0 30px
+}
+
 .col-sm-2 {
     float: left;
     margin-top: 20px;
-    width: 20%;
+    width: 10%;
     height: 70px;
 }
 
@@ -579,25 +585,34 @@ footer {
 .footer-menu1 li {
     display: inline;
     text-decoration: none;
+    border-right: 2px solid;
     font-size: 10px;
-    margin: 5px;
 }
 
 .footer-menu1 li a {
     color: white;
     text-decoration: none;
+    padding: 0 10px;
+    font-size: 10px;
 }
 
 .footer-menu2 li {
     display: inline;
     text-decoration: none;
-    font-size: 15px;
-    margin: 15px;
+    border-right: 2px solid;
+    font-size: 10px;
 }
 
 .footer-menu2 li a {
     color: white;
     text-decoration: none;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.footer-menu1 li:last-child,
+.footer-menu2 li:last-child {
+    border-right: none;
 }
 
 
@@ -639,7 +654,7 @@ footer {
         margin-left: 35%;
     }
     footer {
-        height: 380px;
+        height: 390px;
     }
 }
 

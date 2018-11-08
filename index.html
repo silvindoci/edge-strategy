@@ -17,28 +17,12 @@
 <body>
 
     <header>
-        <div class="logo">
-            <a href=""><img src="./img/logo.png" alt=""></a>
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>|
-                <li><a href="about-the-book.html">About The Book</a></li>|
-                <li><a href="">Authors</a></li>|
-                <li><a href="">Praise</a></li>|
-                <li><a href="news-page.html">News</a></li>|
-                <li><a href="">Resources</a></li>|
-                <li><a href="">Contact</a></li>
-            </ul>
-
-            <div class="toggle">
-                <div class="span" id="one"></div>
-                <div class="span" id="two"></div>
-                <div class="span" id="three"></div>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="./img/logo.png" alt=""></a>
             </div>
-
-            <div class="toggle-menu">
-                <ul>
+            <nav>
+                <ul class="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about-the-book.html">About The Book</a></li>
                     <li><a href="">Authors</a></li>
@@ -47,9 +31,28 @@
                     <li><a href="">Resources</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-            </div>
 
-        </nav>
+                <div class="toggle">
+                    <div class="span" id="one"></div>
+                    <div class="span" id="two"></div>
+                    <div class="span" id="three"></div>
+                </div>
+
+                <div class="toggle-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-the-book.html">About The Book</a></li>
+                        <li><a href="">Authors</a></li>
+                        <li><a href="">Praise</a></li>
+                        <li><a href="news-page.html">News</a></li>
+                        <li><a href="">Resources</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
     </header>
 
     <section class="hero">
@@ -58,28 +61,28 @@
                 <div class="carousel-item active">
                     <img src="./img/slideimg.png" alt="Los Angeles" width="1100" height="500">
                     <div class="carousel-caption">
-                        <hr>
+                        <hr class="hr-sl">
                         <h3>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</h3>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris nisi ut aliquip.</p>
-                        <hr class="hrc">
+                        <hr class="hr-sl">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./img/slideimg.png" alt="Los Angeles" width="1100" height="500">
                     <div class="carousel-caption">
-                        <hr>
+                        <hr class="hr-sl">
                         <h3>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</h3>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris nisi ut aliquip.</p>
-                        <hr class="hrc">
+                        <hr class="hr-sl">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./img/slideimg.png" alt="Los Angeles" width="1100" height="500">
                     <div class="carousel-caption">
-                        <hr>
+                        <hr class="hr-sl">
                         <h3>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</h3>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris nisi ut aliquip.</p>
-                        <hr class="hrc">
+                        <hr class="hr-sl">
                     </div>
                 </div>
 
@@ -117,8 +120,8 @@
     </section>
 
     <section class="news-scroll">
-        <div class="container-fluid">
-            <div class="box2">
+        <div class="container">
+            <div class="box222">
 
                 <div class="newstitle">
                     <h2>NEWS</h2>
@@ -282,7 +285,12 @@
             <div class="row ">
                 <div class="col-md-6 aw1">
                     <div class="media">
-                        <img class="align-self-center mr-3" src="./img/alan.png" alt="Generic placeholder image">
+                        <div class="author-profile1">
+                            <img class="align-self-center mr-3" src="./img/alan.png" alt="Generic placeholder image">
+                            <img src="./img/circle-sm.png" alt="">
+                            <img src="./img/circle-bg.png" alt="">
+                        </div>
+
                         <div class="media-body">
                             <h5 class="mt-0">Alan Lewis</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -291,7 +299,12 @@
                 </div>
                 <div class="col-md-6 aw2">
                     <div class="media">
-                        <img class="align-self-center mr-3" src="./img/dan.png" alt="Generic placeholder image">
+                        <div class="author-profile2">
+                            <img class="align-self-center mr-3" src="./img/dan.png" alt="Generic placeholder image">
+                            <img src="./img/circle-sm.png" alt="">
+                            <img src="./img/circle-bg.png" alt="">
+                        </div>
+
                         <div class="media-body">
                             <h5 class="mt-0">Dan McKone</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -303,6 +316,7 @@
     </section>
 
     <section class="resources">
+
         <div class="container">
             <h2>Resources</h2>
             <hr class="hr1">
@@ -331,14 +345,13 @@
                                 <h5 class="mt-0 mb-1">Lorem Ipsum Sed Ut Perspiciatis Unde Omnis Iste Natus Error Sit</h5>
                             </div>
                         </li>
-                        <li class="media">
+                        <li class="media my-4">
                             <img class="mr-3" src="./img/layer.png" alt="Generic placeholder image">
                             <div class="media-body">
                                 <h5 class="mt-0 mb-1">Edge Strategy: <br> Lorem Ipsum Dolor Sect Nonummy</h5>
                             </div>
                         </li>
-                        <br>
-                        <li class="media">
+                        <li class="media my-4">
                             <img class="mr-3" src="./img/layer.png" alt="Generic placeholder image">
                             <div class="media-body">
                                 <h5 class="mt-0 mb-1">Lorem Ipsum Sed Ut Perspiciatis Unde Omnis <br> Iste Natus Error Sit</h5>
@@ -349,27 +362,28 @@
                 </div>
             </div>
         </div>
+        <img class="vector1" src="./img/vector-bg.png" alt="">
     </section>
 
     <footer>
         <div class="container">
-            <div class="row">
+            <div class="row footer-row">
                 <div class="col-sm-2">
                     <a href=""><img src="./img/lek.png" alt=""></a>
                 </div>
                 <div class="col-sm-8 footer-menu">
                     <ul class="footer-menu1">
-                        <li><a href="">Copyright 2016 L.E.K. Consulting</a></li>|
-                        <li><a href="">All rights reserved</a></li>|
+                        <li><a href="">Copyright 2016 L.E.K. Consulting</a></li>
+                        <li><a href="">All rights reserved</a></li>
                         <li><a href="">Edge Strategy™ is a trademark of L.E.K. Consulting LLC</a></li>
                     </ul>
                     <ul class="footer-menu2">
-                        <li><a href="index.html">Home</a></li>|
-                        <li><a href="about-the-book.html">About The Book</a></li>|
-                        <li><a href="">Authors</a></li>|
-                        <li><a href="">Praise</a></li>|
-                        <li><a href="news-page.html">News</a></li>|
-                        <li><a href="">Resources</a></li>|
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-the-book.html">About The Book</a></li>
+                        <li><a href="">Authors</a></li>
+                        <li><a href="">Praise</a></li>
+                        <li><a href="news-page.html">News</a></li>
+                        <li><a href="">Resources</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
