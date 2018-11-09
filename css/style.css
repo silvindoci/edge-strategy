@@ -1078,14 +1078,14 @@ footer {
 .pager .previous {
     color: rgba(238, 88, 52, 255);
     float: left;
-    border: 1px solid;
+    border: 1px solid #fbddd5;
     width: 159px;
     height: 41px;
 }
 
 .pager .back-news {
     color: rgba(238, 88, 52, 255);
-    border: 1px solid;
+    border: 1px solid #fbddd5;
     width: 138px;
     height: 41px;
 }
@@ -1093,7 +1093,7 @@ footer {
 .pager .next {
     color: rgba(238, 88, 52, 255);
     float: right;
-    border: 1px solid;
+    border: 1px solid #fbddd5;
     width: 159px;
     height: 41px;
 }
