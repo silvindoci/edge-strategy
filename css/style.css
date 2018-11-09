@@ -540,7 +540,7 @@ hr.hrcat {
 
 .vid1,
 .vid2 {
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 .embed-responsive {
@@ -671,8 +671,9 @@ footer {
 .footer-menu2 li a {
     color: white;
     text-decoration: none;
-    padding: 0 15px;
+    padding: 0 12px;
     font-size: 14px;
+    text-transform: uppercase;
 }
 
 .footer-menu1 li:last-child,
@@ -786,7 +787,8 @@ footer {
     background-image: linear-gradient(to top right, #fdede5, #f3e1dd, #ffffff, #ffffff, #ffffff);
     height: 250px;
     padding-top: 52px;
-    position: absolute
+    position: absolute;
+    z-index: -2;
 }
 
 .box {
@@ -906,12 +908,13 @@ footer {
 /* stat client1*/
 
 .clients1 {
+    padding: 0;
+    margin: 0;
     height: 140px;
     box-shadow: inset 0px 11px 20px -10px #CCC, inset 0px -11px 20px -10px #CCC;
 }
 
 .clients1 h5 {
-    margin-left: 60px;
     padding-top: 8px;
     font-size: 18px;
     color: rgba(88, 88, 88, 255);
@@ -921,12 +924,23 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
 }
 
 .clientimg1 {
     flex: 15%;
+    padding: 0;
+}
+
+.clientimg1 img {
+    padding: 0 80px 0 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .clientimg1 img {
+        padding: 0 0 0 0;
+    }
 }
 
 @media(max-width: 1000px) {
@@ -987,7 +1001,8 @@ footer {
     background-image: linear-gradient(to top right, #fdede5, #f3e1dd, #ffffff, #ffffff, #ffffff);
     height: 150px;
     padding-top: 52px;
-    position: absolute
+    position: absolute;
+    z-index: -2;
 }
 
 .flow3 {
@@ -1104,6 +1119,29 @@ footer {
     font-size: 11px;
 }
 
+.flow0 img {
+    position: absolute;
+}
+
+.flow0 img:first-child {
+    z-index: 3
+}
+
+.flow0 img:nth-child(2) {
+    z-index: -1;
+    top: -160px;
+    right: -100px;
+    margin-left: -50px;
+}
+
+.flow0 img:last-child {
+    z-index: 2;
+    top: 150px;
+    right: 80px;
+    width: 384px;
+    height: 383px;
+}
+
 
 /* Large Devices, Wide Screens */
 
@@ -1117,6 +1155,14 @@ footer {
         max-height: 0;
         margin-top: 50px;
         margin-left: 50px;
+    }
+    .flow0 img:nth-child(2) {
+        z-index: 2;
+        top: -160px;
+        right: -50px;
+        margin-left: -50px;
+        width: 457px;
+        height: 584px
     }
 }
 
@@ -1151,9 +1197,6 @@ footer {
 /* Small Devices, Tablets */
 
 @media only screen and (max-width: 768px) {
-    .flow0 {
-        display: none;
-    }
     .flow7 {
         margin-top: 20px;
     }
