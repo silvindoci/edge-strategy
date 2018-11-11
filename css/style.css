@@ -381,6 +381,13 @@ hr.hrcat {
     border-top: 2px dashed #cccccc;
 }
 
+.fadeout {
+    position: relative;
+    bottom: 4em;
+    height: 4em;
+    background: -webkit-linear-gradient( rgba(238, 234, 234, 0) 0%, #f5f5f5 100%);
+}
+
 
 /*News end*/
 
