@@ -847,6 +847,19 @@ footer {
     z-index: -2;
 }
 
+.box4444 {
+    margin-left: -15px;
+    height: 250px;
+    padding-top: 52px;
+    padding-left: 5%;
+}
+
+.awth img {
+    float: right;
+    margin-top: -304px;
+    z-index: -5;
+}
+
 .box {
     margin-left: -15px;
     height: 250px;
