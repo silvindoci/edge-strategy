@@ -376,6 +376,10 @@ header nav .menu li a {
     color: rgba(233, 71, 44, 255);
 }
 
+.newstitle h2 {
+    font-size: 39px;
+}
+
 hr.hrcat {
     background-color: #fff;
     border-top: 2px dashed #cccccc;
@@ -403,6 +407,7 @@ hr.hrcat {
 .authors h2 {
     padding: 0 20px;
     color: rgba(233, 71, 44, 255);
+    font-size: 39px;
 }
 
 .hr1 {
@@ -565,6 +570,7 @@ hr.hrcat {
 
 .resources h2 {
     color: rgba(233, 71, 44, 255);
+    font-size: 39px;
 }
 
 .hr2 {
@@ -581,6 +587,7 @@ hr.hrcat {
 .list-unstyled {
     text-align: left;
     color: rgba(237, 83, 46, 255);
+    text-decoration: underline;
 }
 
 .list-unstyled h5 {
@@ -834,7 +841,7 @@ footer {
 }
 
 .about h1 {
-    font-size: 45px;
+    font-size: 46px;
     color: rgba(233, 71, 44, 255);
 }
 
@@ -899,6 +906,7 @@ footer {
 
 .about h2 {
     font-weight: bold;
+    line-height: 32px;
 }
 
 
@@ -1077,7 +1085,7 @@ footer {
 .redred1 {
     width: 100%;
     background-image: linear-gradient(to top right, #fdede5, #f3e1dd, #ffffff, #ffffff, #ffffff);
-    height: 150px;
+    height: 115px;
     padding-top: 52px;
     position: absolute;
     z-index: -2;
@@ -1086,13 +1094,13 @@ footer {
 .box111 {
     height: 100px;
     margin-left: -30px;
-    padding-top: 49px;
+    padding-top: 25px;
 }
 
 .box111 h1 {
     font-size: 45px;
     color: rgba(233, 71, 44, 255);
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .flow6 {
@@ -1124,7 +1132,7 @@ footer {
 }
 
 .flow5 {
-    padding-top: 32px;
+    padding-top: 0px;
 }
 
 .flow6 .date {
@@ -1411,6 +1419,7 @@ footer {
     margin-top: -35px;
     margin-bottom: 30px;
     color: #666666;
+    line-height: 24px;
 }
 
 .panel-body a {
